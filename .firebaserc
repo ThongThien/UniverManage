@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "dummy-data-444ce",
+    "y": "dummy-data-816f2",
+    "build": "mock-project-912c4"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

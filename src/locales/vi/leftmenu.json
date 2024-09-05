@@ -1,0 +1,13 @@
+{
+    "leftmenu": {
+        "announcement": "Thông báo",
+        "dashboard": "Trang điều khiển",
+        "studentProfile": "Hồ sơ Học sinh",
+        "universityAdmission": "Đăng ký Đại học",
+        "universityManagement": "Quản lý Trường Đại học",
+        "studentManagement": "Quản lý học sinh",
+        "studentDetails": "Chi tiết  học sinh",
+        "register" : "Đăng ký",
+        "adminProfile": "Hồ sơ Quản trị viên"
+    }
+}

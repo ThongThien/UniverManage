@@ -1,0 +1,319 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.Card-items {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+  margin-bottom: 10px;
+  max-height: 330px;
+  border-radius: 5px;
+  height: 300px;
+}
+
+.card1 {
+  width: 70%;
+  margin-bottom: 10px !important;
+}
+
+.card1,
+.card2,
+.card3 {
+  background-color: #eeeeee;
+  border: 1px solid #cac7c7;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover {
+  transform: scale(1.05);
+}
+
+.card2 {
+  margin-bottom: 10px;
+}
+
+.card3 {
+  margin-bottom: 10px;
+}
+
+.charts {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.chart-Pie1,
+.chart-Column,
+.chart-Line,
+.chart-Line1
+ {
+  flex: 1 1;
+  border: 1px solid #cac7c7;
+  border-radius: 5px;
+  margin: 10px 20px;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+  padding: 5px;
+}
+
+.chart-Pie1:hover,
+.chart-Column:hover {
+  transform: scale(1.05);
+}
+
+.chart-Line {
+  width: 95%;
+  margin-bottom: 20px;
+}
+.chart-Line1{
+  width: 95%;
+  margin-bottom: 20px;
+}
+.chart-Pie1 {
+  margin-left: 30px;
+  padding-left: 10px;
+}
+
+.chart-Column {
+  margin-right: 30px;
+}
+
+.students-title,
+.items-Students,
+.items-uni,
+.items-Uni,
+.items-gender,
+.gender1,
+.gender2 {
+  display: flex;
+  align-items: baseline;
+}
+
+.students-title p,
+.items-Students p,
+.items-uni p,
+.items-Uni p,
+.items-gender p {
+  margin-right: 5px;
+}
+
+.Below5 {
+  right: 10px;
+}
+
+.icon-wrapper {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+}
+
+.Below5 {
+  padding-left: 40px;
+  font-size: 25px;
+}
+
+.Below5 p {
+  font-weight: bold;
+  font-size: 25px;
+  color: red;
+  display: inline;
+}
+
+.below50Percent {
+  margin-right: 10px;
+}
+
+.below50Percent {
+  font-weight: bold;
+  font-size: 25px;
+  color: red;
+}
+
+.items-Uni {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.items-Uni p {
+  margin: 5px;
+}
+
+.top-students {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.congratulations-title,
+.student-name {
+  width: 100%;
+  text-align: left;
+}
+
+.congratulations-title {
+  margin-bottom: 5px; /* Reduce margin to bring elements closer */
+}
+
+.student-name {
+  margin-top: 5px; /* Reduce or remove margin to bring elements closer */
+  font-size: 18px;
+  font-weight: 600;
+  max-height: 40px;
+}
+
+.student-name p {
+  font-weight: bolder;
+  font-size: 20px;
+  color: green;
+  line-height: 21px;
+  margin: 0; /* Remove margin to avoid additional spacing */
+}
+
+.congratulations-title .icon-wrapper {
+  margin-right: 10px;
+}
+
+.item-chung {
+  font-size: 50px;
+  font-weight: 800;
+  color: #cc9900;
+  margin-bottom: 5px;
+}
+
+.items-chung {
+  font-size: 25px;
+  font-weight: bold;
+  color: #cc9900;
+  margin-top: 5px;
+}
+
+.item-red-card {
+  font-weight: bold;
+  font-size: 25px;
+  color: red;
+  margin-right: 10px;
+}
+
+.items-green-card {
+  font-weight: bold;
+  font-size: 22px;
+  color: green;
+  display: inline;
+}
+
+/* REPONSIVE */
+@media (max-width: 760px) {
+  .Card-items {
+    flex-direction: column;
+    align-items: center;
+    max-height: max-content;
+    height: fit-content;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    width: 90%;
+    height: 400px;
+  }
+  .charts {
+    flex-direction: column;
+  }
+  .chart-Pie1,
+  .chart-Line,
+  .chart-Line1
+  .chart-Column {
+    margin: 20px;
+  }
+}
+
+/* Điện thoại lớn (landscape) */
+/* @media (min-width: 481px) and (max-width: 767px) {
+  .Card-items {
+    align-items: center;
+    max-height: max-content;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    width: 40%;
+    height: 400px;
+  }
+  .charts {
+    flex-direction: column;
+  }
+  .chart-Pie1,
+  .chart-Line,
+  .chart-Column{
+    margin: 20px;
+
+  }
+} */
+
+/* Máy tính bảng nhỏ (portrait và landscape) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Card-items {
+    align-items: center;
+    max-height: max-content;
+    height: fit-content;
+
+  }
+  .card1,
+  .card2,
+  .card3 {
+    width: 70%;
+    height: 390px;
+  }
+  .charts {
+    flex-direction: column;
+  }
+  .chart-Pie1,
+  .chart-Line,
+  .chart-Line1
+  .chart-Column {
+    margin: 30px;
+  }
+}
+
+/* Máy tính bảng lớn và laptop nhỏ */
+@media (min-width: 1025px) and (max-width: 1200px) {
+}
+
+/* Máy tính để bàn và laptop lớn */
+@media (min-width: 1201px) {
+}
+.chart-Line canvas {
+  width: 100% !important;
+}
+.chart-Line1 canvas {
+  width: 100% !important;
+}
+.chart-Pie1 h1{
+  text-align: center;
+}
+.chart-Column h1{
+  text-align: center;
+}
+.chart-Line h1{
+  text-align: center;
+}
+.chart-Line1 h1{
+  text-align: center;
+}

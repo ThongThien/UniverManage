@@ -1,0 +1,121 @@
+.input-login.ant-input-outlined {
+  background: #e6da5000;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  margin-bottom: 20px;
+}
+.btn-update {
+  margin: 0 30%;
+}
+.error-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  position: absolute;
+  bottom: -15px;
+  left: 80px;
+  color: rgb(244, 84, 84);
+  font-size: 13.5px;
+  font-weight: 500;
+}
+.input-login :placeholder-shown {
+  width: 200px;
+  margin-right: 65px;
+}
+.input-error {
+  display: gird;
+  margin-left: 80px;
+}
+.input-login {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-update {
+  margin: 0 30%;
+}
+
+.error-icon {
+  color: red;
+  display: grid;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+.input_error {
+  display: flex;
+}
+.div-login-error {
+  display: flex;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fixed-width-button {
+  width: 200px;
+  display: flex;
+  border: solid 2px #cbc5bd;
+}
+
+.fixed-width-button .btn-update {
+  width: 100%;
+  position: relative;
+}
+
+.fixed-width-button .ant-spin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: white;
+}
+.fixed-width-button .ant-spin-dot {
+  font-size: 20px;
+}
+.fixed-width-button .ant-spin-dot-item {
+  background-color: white; /* Set the spinner color to white */
+}
+
+/*  */
+.language-forgot-container {
+  display: flex;
+  justify-content: space-between;
+  min-width: 333px;
+  align-items: center;
+}
+
+.language-forgot-box {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.language-forgot-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.ant-input-affix-wrapper.ant-input-outlined.ant-input-password {
+  border: solid 2px #cbc5bd;
+}
+.ant-input-affix-wrapper .anticon.ant-input-password-icon {
+  color: rgba(163, 163, 163, 0.63);
+}
+.title-reset {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+  font-weight: 700;
+  margin-bottom: 40px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+}

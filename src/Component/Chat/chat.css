@@ -1,0 +1,141 @@
+.adminChatContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: auto;
+  height: 80vh;
+  margin: 0 auto;
+  border-radius: 23px;
+}
+
+.adminChatHeader {
+  margin-left: 20px;
+  font-size: 22px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.adminChatHeader h2 {
+  margin: 0;
+}
+
+.chatMessagesContainer {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto; /* Cho phép cuộn dọc */
+}
+
+.chatMessage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 50%;
+}
+
+.chatMessage.currentUser {
+  align-self: flex-end;
+  background-color: rgb(233, 181, 132);
+  color: #0d0808;
+}
+
+.chatMessage:not(.currentUser) {
+  align-self: flex-start;
+  background-color: #fff;
+  color: black;
+}
+
+.chatInputContainer {
+  padding: 10px;
+  
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+  position: sticky; /* Giữ thanh input cố định ở dưới */
+  bottom: 0;
+  width: 100%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.chatInputContainer form {
+  display: flex;
+}
+
+.chatInputContainer input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.chatInputContainer button {
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.owner {
+  display: flex;
+}
+
+.owner p {
+  margin-top: 25px;
+  margin-left: 7px;
+  font-size: 19px;
+  color: rgb(12, 2, 2);
+}
+.owner.currentUser p {
+  margin-top: 25px;
+  margin-left: 7px;
+  font-size: 18px;
+  color: #0d0808;
+}
+.pinned {
+  background-color: #f0f0f0;
+}
+
+.chatOptions {
+  position: absolute;
+  top: 11px;
+  left: -70px;
+  background-color: rgba(255, 255, 255, 0.8); /* Nền trong suốt */
+  padding: 5px;
+  display: none; 
+  border-radius: 5px;
+}
+
+.chatMessage:hover .chatOptions {
+  display: block;
+}
+
+.chatOptions button {
+  background-color: transparent;
+  color: #007bff;
+  padding: 4px 10px;
+  margin: 2px 0;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+.modal title {
+  font-size: 20px;
+}
+.text-chat {
+  font-size: 17px;
+  margin-left: 5px;
+}

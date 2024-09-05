@@ -1,0 +1,13 @@
+{
+  "leftmenu": {
+    "announcement": "Announcement",
+    "dashboard": "Dashboard",
+    "studentDetails": "Student Details",
+    "studentProfile": "Student's Profile",
+    "universityAdmission": "University Registration",
+    "studentManagement": "Student Management",
+    "universityManagement": "University Management",
+    "register": "Register",
+    "adminProfile": "Admin Profile"
+  }
+}

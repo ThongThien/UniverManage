@@ -1,0 +1,13 @@
+{
+    "leftmenu": {
+        "announcement": "お知らせ",
+        "dashboard": "ダッシュボード",
+        "studentDetails": "学生の詳細",
+        "studentProfile": "学生のプロフィール",
+        "universityAdmission": "大学入学",
+        "universityManagement": "大学管理",
+        "studentManagement": "学生管理",
+        "register" : "登録する" ,
+        "adminProfile": "管理者プロフィール"
+    }
+}

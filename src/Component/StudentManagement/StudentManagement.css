@@ -1,0 +1,269 @@
+.search-bar {
+  padding-top: 10px;
+  padding-bottom: 0px !important;
+}
+.button-group {
+  margin-left: 20px;
+  padding-right: 15px;
+  display: flex;
+}
+
+.group-right {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.ant-table-wrapper .ant-table-pagination.ant-pagination {
+  margin: 16px 10px;
+}
+.ant-table-wrapper .ant-table-pagination.ant-pagination {
+  margin: 16px 10px;
+}
+.modal-content-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 450;
+  font-size: large;
+}
+.modal-content-detail {
+  width: 45%;
+  margin: 0px 10px 10px;
+}
+.icon-maleIcon {
+  color: #43aadc !important;
+  position: absolute;
+  top: 29px;
+  left: 18px;
+}
+.icon-femaleIcon {
+  color: #df007b !important;
+  position: absolute;
+  top: 29px;
+  left: 18px;
+}
+.ant-table-row:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+.ant-input-outlined.ant-input-disabled,
+.ant-input-outlined[disabled] {
+  color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.04);
+  border-color: #d9d9d9;
+  box-shadow: none;
+  cursor: not-allowed;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+.ant-input-outlined {
+  background: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  margin-bottom: 20px;
+}
+.ant-input-outlined::placeholder:hover {
+  color: #cfcfcf !important;
+}
+.ant-drawer .ant-drawer-content {
+  display: block;
+
+  height: 100%;
+  overflow: hiden;
+  background: #ffffff;
+  pointer-events: auto;
+}
+.ant-modal .ant-modal-content {
+  position: relative;
+  background-clip: padding-box;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+    0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  pointer-events: auto;
+  padding: 20px 24px;
+  margin-top: -20px;
+}
+
+.add-student-box {
+  display: flex !important;
+}
+.add-student-box input {
+  margin-bottom: 0 !important;
+}
+.add-student-box
+  .ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) {
+  background: white !important;
+  border: solid 1px red !important ;
+}
+.ant-drawer-body {
+  overflow-x: hidden !important;
+}
+.ant-select-compact-item:not(.ant-select-compact-first-item):not(
+    .ant-select-compact-last-item
+  )
+  > .ant-select-selector {
+  border-radius: 0;
+  height: 40px;
+}
+.ant-input-compact-item:not(
+    .ant-input-compact-first-item
+  ).ant-input-compact-last-item,
+.ant-input-compact-item:not(
+    .ant-input-compact-first-item
+  ).ant-input-compact-last-item.ant-input-sm,
+.ant-input-compact-item:not(
+    .ant-input-compact-first-item
+  ).ant-input-compact-last-item.ant-input-lg {
+  border-start-start-radius: 0;
+  border-end-start-radius: 0;
+  height: 40px;
+}
+.search-icon {
+  color: #888 !important;
+  margin: 18px 0 0 5px !important;
+}
+.fullname span {
+  /* color: black; */
+  margin-left: 20px;
+}
+.ant-space-compact {
+  margin-bottom: -10px;
+  width: 98.5%;
+}
+.search-select {
+  width: 180px !important;
+}
+.datePicker {
+  width: 100% !important;
+}
+.button-position {
+  text-align: right !important;
+}
+.inline-button {
+  display: inline-block !important;
+  margin-right: 8px !important;
+  margin-top: 15px !important;
+}
+.merged-column-1 {
+  color: #2063ac !important;
+  font-weight: 500;
+}
+.merged-column-2 {
+  color: #04b24a !important;
+  font-weight: 500;
+}
+table {
+  overflow: hidden !important;
+}
+.fix-overlap-css:hover {
+  background: white !important;
+}
+.student-search:hover {
+  background: white !important;
+}
+.no-universities {
+  height: 140px;
+}
+.ant-select .ant-select-arrow {
+  margin-top: 0px;
+}
+.anticon {
+  margin-top: -5px;
+}
+/* REPONSIVE */
+@media (max-width: 480px) {
+}
+
+/* Điện thoại lớn (landscape) */
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* Máy tính bảng nhỏ (portrait và landscape) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  table {
+    overflow: scroll !important;
+  }
+  .icon-col {
+    display: none !important;
+  }
+}
+
+/* Máy tính bảng lớn và laptop nhỏ */
+@media (min-width: 1025px) and (max-width: 1200px) {
+}
+
+/* Máy tính để bàn và laptop lớn */
+@media (min-width: 1201px) {
+}
+
+.char-count {
+  position: absolute;
+  top: 4px;
+  right: 9px;
+  display: none;
+}
+.ant-input-outlined.ant-input-disabled,
+.ant-input-outlined[disabled] {
+  margin-bottom: 0 !important;
+}
+.char-count.error {
+  color: red;
+  display: block;
+}
+.fullname-input {
+  max-height: 70px;
+}
+.ant-input-outlined[disabled] {
+  color: #000;
+}
+.fullname-input
+  .ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) {
+  border-bottom: none !important;
+  border: solid 1px red !important;
+}
+.fullname-input .ant-form-item .ant-form-item-control-input-content {
+  height: 30px !important;
+}
+
+.fullname-input .ant-input-outlined {
+  margin-bottom: 0 !important;
+}
+.ant-form-vertical .ant-form-item-row {
+  margin-top: 11px !important;
+}
+.ant-drawer .ant-drawer-title {
+  font-size: x-large;
+}
+.student-management input::placeholder {
+  color: #cfcfcf !important;
+}
+.id-text {
+  color: #2063ac;
+  font-weight: 500;
+}
+
+.fullname:hover {
+  cursor: pointer;
+}
+.ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+  color: white;
+  border-color: black;
+  background: #000000;
+}
+.ant-btn-default.ant-btn-dangerous:not(:disabled):not(.ant-btn-disabled):hover {
+  color: #ffffff;
+  border-color: black;
+  background: #000000;
+}
+.ant-btn-default.ant-btn-dangerous {
+  color: #ffffff;
+  border-color: #0569b1;
+}
+.student-details-modal .ant-modal .ant-modal-content {
+  top: -40px !important;
+}

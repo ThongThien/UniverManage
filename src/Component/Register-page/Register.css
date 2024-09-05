@@ -1,0 +1,217 @@
+svg:not(:root).svg-inline--fa,
+svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+  padding-bottom: 18px;
+}
+p.center.inner {
+  color: black;
+  font-weight: 700;
+}
+.center a {
+  padding-left: 3px;
+  color: white;
+  text-decoration: underline;
+}
+#register {
+  max-width: 100% !important;
+}
+.input-box {
+  padding: 22px 0px 22px 8%;
+}
+.title-box h2 {
+  font-weight: 650;
+  font-size: 30px;
+  padding: 10px 0 0 20px;
+}
+.title-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 2px #d8d4d4;
+}
+
+.ant-radio-group {
+  padding-right: 20px;
+}
+.input-box span {
+  font-weight: 500;
+}
+.ant-form-item-required {
+  font-weight: 500;
+}
+.input-box input {
+  background: white;
+  border: solid;
+}
+.input-box input:hover {
+  background-color: #f5f5f5;
+}
+
+.ant-input-affix-wrapper.ant-input-outlined.ant-input-password {
+  border: solid;
+}
+.ant-input-affix-wrapper.ant-input-outlined.ant-input-password:focus {
+  background: #fff !important;
+  border: solid 1px rgb(230 244 255 / 0%) !important;
+}
+.ant-btn-primary {
+  color: #fff;
+  background: #0569b1;
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+}
+.ant-btn-default {
+  background: #0569b1;
+  color: #fff;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+}
+.ant-btn {
+  font-size: 17px;
+  line-height: 1.5714285714285714;
+  height: 40px;
+  padding: 4px 15px;
+  border-radius: 4px;
+  align-items: center;
+}
+
+#register_confirm,
+#register_password {
+  border: none !important;
+}
+#register_confirm :hover,
+#register_confirm :focus,
+#register_password:hover,
+#register_password:focus {
+  border: none !important;
+  background: #b8b4b400;
+}
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item:hover,
+.ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item:hover,
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title:hover,
+.ant-dropdown-menu-submenu
+  .ant-dropdown-menu
+  .ant-dropdown-menu-submenu-title:hover,
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item-active,
+.ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item-active,
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title-active,
+.ant-dropdown-menu-submenu
+  .ant-dropdown-menu
+  .ant-dropdown-menu-submenu-title-active {
+  color: #fff;
+  background-color: rgb(32 99 172);
+}
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item-icon,
+.ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item-icon {
+  min-width: 14px;
+  margin-inline-end: 8px;
+  font-size: 12px;
+  color: #f27321;
+}
+.ant-list * {
+  outline: none;
+  font-weight: 500;
+}
+.antd-pro-notice-icon-notFound {
+  text-align: center;
+}
+.required-star {
+  color: red;
+  font-size: 16px;
+}
+#register_rconfirm,
+#register_rpassword {
+  border: none !important;
+  background: none !important;
+}
+.input-password {
+  width: 110% !important;
+  margin-bottom: 0 !important;
+}
+.input-box-flex input {
+  margin-bottom: 0px !important;
+  width: 110% !important;
+  border: solid 1px #000 !important;
+}
+.input-box-flex {
+  margin-bottom: 15px !important;
+
+  width: 100% !important ;
+  max-width: 1200px !important;
+}
+.input-box-flex
+  .ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) {
+  background: white !important;
+  border: solid 1px red !important ;
+}
+.btn-register-box {
+  display: flex !important;
+}
+.register-sub-btn {
+  margin-right: 10px;
+}
+.resigter-form-css {
+  min-width: 600px !important;
+}
+
+/* REPONSIVE */
+@media (max-width: 470px) {
+  .input-box-flex {
+    display: block !important;
+    max-width: 45% !important;
+  }
+  .ant-form-item .ant-form-item-control-input-content {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 470px) and (max-width: 637px) {
+  .input-box-flex {
+    display: block !important;
+    max-width: 70% !important;
+  }
+}
+
+/* Điện thoại lớn (landscape) */
+@media (min-width: 638px) and (max-width: 743px) {
+  .input-box-flex {
+    display: block !important;
+    width: 196% !important;
+  }
+}
+
+/* Máy tính bảng nhỏ (portrait và landscape) */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Máy tính bảng lớn và laptop nhỏ */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* CSS dành cho máy tính bảng lớn và laptop nhỏ */
+}
+
+/* Máy tính để bàn và laptop lớn */
+@media (min-width: 1201px) {
+}
+
+@media (min-width: 1025px) {
+}
+.char-idcard {
+  right: -30px;
+  top: 6px;
+  position: absolute;
+  display: none;
+}
+.char-idcard.error {
+  color: red;
+  display: block;
+}
+.ant-input-affix-wrapper.ant-input-outlined.ant-input-password {
+  border: solid 1px #000;
+}
+.custom-form-item .ant-input-suffix {
+  padding-top: 5px  ;
+}
+#register_rconfirm::placeholder, #register_rpassword::placeholder {
+  color: #cfcfcf !important;
+}
+.custom-form-item {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,258 @@
+.search-bar {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.button-group {
+  margin-left: 20px;
+  padding-right: 15px;
+  display: flex;
+}
+
+.group-right {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: 30px;
+}
+.ant-table-wrapper .ant-table-pagination.ant-pagination {
+  margin: 16px 10px;
+}
+.ant-table-wrapper .ant-table-pagination.ant-pagination {
+  margin: 16px 10px;
+}
+.modal-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-field {
+  margin-bottom: 10px;
+}
+.modal-field span {
+  font-weight: 450;
+}
+
+.modal-content-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 450;
+  font-size: large;
+}
+.modal-content-detail {
+  width: 55%;
+  margin: 0px 10px 10px;
+}
+.registered-students p {
+  color: #2969af;
+  margin: 15px 0;
+  line-height: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+hr {
+  width: 50%;
+}
+.registered-students {
+  font-size: large;
+  font-weight: 450;
+  margin: 5px 0px;
+  text-align: center;
+}
+.ant-modal .ant-modal-title {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  text-align: center;
+  font-size: x-large;
+}
+.ant-modal .ant-modal-content {
+  position: relative;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+    0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  pointer-events: auto;
+  padding: 20px 24px;
+  top: -20px;
+}
+.ant-modal .ant-modal-body {
+  line-height: 1;
+  word-wrap: break-word;
+}
+.ant-form-item {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 2px;
+  vertical-align: top;
+}
+.green-text-row {
+  color: rgb(242 115 33);
+  font-weight: 550 !important;
+}
+.ant-table-row:hover {
+}
+.ant-table-row {
+  font-weight: normal;
+  transition: font-weight 0.3s ease;
+}
+.ant-row {
+  display: block;
+}
+#universityCode,
+#universityName {
+  margin-bottom: 0px !important;
+  background: white;
+  border: solid 1px #000 !important ;
+}
+
+#universityAddress {
+  margin-bottom: 0px !important;
+  background: white !important;
+  border: solid 1px #000 !important ;
+}
+#universityEntranceNumber {
+  margin-bottom: 0px !important;
+  background: white !important;
+  border: solid 1px #000 !important ;
+}
+#universityScore {
+  margin-bottom: 0px !important;
+  background: white !important;
+  border: solid 1px #000 !important ;
+}
+.u-manga-box input {
+  margin-bottom: 0 !important;
+}
+
+.u-manga-box .ant-col {
+  padding: 0 !important;
+}
+.ant-drawer-body {
+  overflow-x: hidden;
+}
+.name-click {
+  cursor: pointer;
+}
+.ant-space-align-center {
+  align-items: flex-start;
+}
+.ant-space-compact {
+  width: 98.5%;
+}
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+.uni-select {
+  width: 180px !important;
+}
+.search-icon {
+  color: #888;
+  margin: 18px 0 0 5px !important;
+}
+
+.stu-select {
+  width: 150px !important;
+}
+.student-search {
+  width: 750px !important;
+}
+.university-details-modal {
+  top: 65px !important;
+}
+.merged-column {
+  color: #2063ac !important;
+  font-weight: 500;
+}
+
+.fix-overlap-css:hover {
+  background: white !important;
+}
+.no-students {
+  height: 160px;
+}
+/* REPONSIVE */
+@media (max-width: 480px) {
+}
+
+/* Điện thoại lớn (landscape) */
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* Máy tính bảng nhỏ (portrait và landscape) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  table {
+    overflow: scroll !important;
+  }
+  .ant-table-body {
+    max-height: 750px !important;
+  }
+}
+
+/* Máy tính bảng lớn và laptop nhỏ */
+@media (min-width: 1025px) and (max-width: 1200px) {
+}
+
+/* Máy tính để bàn và laptop lớn */
+@media (min-width: 1201px) {
+}
+.ant-table-wrapper .ant-table-cell-scrollbar:not([rowspan]) {
+  box-shadow: none;
+}
+
+.registered-students input::placeholder {
+  color: #cfcfcf !important;
+}
+
+.search-bar input::placeholder {
+  color: #cfcfcf !important;
+}
+.field-name {
+  color: #2063ac;
+  font-weight: 500;
+}
+.modal-content-detail-box {
+  display: flex;
+  justify-content: space-between;
+  max-height: 35px;
+}
+.ant-form-item .ant-form-item-label > label {
+  float: left;
+}
+
+.modal-content-container .modal-content-detail:first-child {
+  width: 30%;
+}
+.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+  color: #fff;
+  background: #000000;
+}
+#addUniversityForm
+  .modal-content
+  .ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) {
+  background: transparent;
+  border: solid 1px red !important;
+}
+#addUniversityForm .modal-content .ant-form-item .ant-form-item-explain-error {
+  color: #ff4d4f;
+  float: left;
+}
+#ddUniversityForm .ant-form-vertical .ant-form-item-label,
+.ant-col-24.ant-form-item-label,
+.ant-col-xl-24.ant-form-item-label {
+  padding: 0 !important;
+}

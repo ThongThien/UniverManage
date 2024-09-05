@@ -1,0 +1,301 @@
+.content-profile {
+  margin-left: 50px;
+  display: flex;
+  margin-top: 25px;
+  position: relative;
+  overflow: hidden;
+}
+.student-pr5-avt {
+  border: solid 4px #000;
+  object-fit: cover;
+}
+.content-profile-info {
+  margin-left: 30px;
+  width: 70%;
+}
+
+.btn-function {
+  position: fixed;
+  bottom: 366px;
+  right: 80px;
+  z-index: 10;
+}
+.btn-function button:last-child {
+  margin-left: 10px;
+}
+.ele {
+  min-height: 25px;
+  align-items: center;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.ele h2:first-child {
+  color: #a2a2a2;
+  font-weight: 400;
+  font-size: 16px;
+  min-width: 160px;
+}
+.ele h2:last-child {
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+}
+.input-container {
+  margin-bottom: 16px;
+}
+.average-score {
+  color: red !important;
+}
+.custom-chart-class canvas {
+  z-index: 0;
+  width: 420px !important;
+  height: auto !important;
+  touch-action: none;
+  position: relative;
+}
+.custom-chart-class {
+  width: 390px;
+  max-height: 400px;
+  margin-right: -48px;
+}
+.ant-plot-pie-legend {
+  position: absolute;
+  right: 10px !important;
+  z-index: 10;
+}
+.ele-spc h2 {
+  text-transform: capitalize;
+}
+.ele-spc h2:first-child {
+  min-width: 140px;
+}
+
+.box-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.box-item label {
+  color: #a2a2a2;
+  min-width: 150px;
+  margin-right: 8px;
+  /* font-weight: bold; */
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.box-item h2 {
+  margin: 0;
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.box-item .ant-input,
+.box-item .ant-select,
+.box-item .ant-picker {
+  flex-grow: 1;
+}
+.ele input {
+  margin-bottom: 3px !important;
+}
+
+.camera-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 90;
+}
+.camera-webcam {
+  z-index: 100;
+  margin-top: 40px;
+  border: solid 3px #fff;
+  border-radius: 10px;
+  width: 150vh;
+  height: 85vh;
+}
+.webcam-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.webcam-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.webcam-buttons button {
+  margin-right: 10px;
+  border-color: #0569b1;
+}
+.btn-format {
+  cursor: pointer;
+  margin: 5px 5px;
+  background: #e6e7ea;
+  border: none;
+  padding: 8px 13px 8px 13px;
+  border-radius: 3px;
+  font-size: 20px;
+}
+
+.change-pass-box label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+.change-pass-box input::placeholder {
+  color: #cfcfcf !important;
+}
+.change-pass-box .ant-input-password-icon {
+  margin-top: -3px !important;
+}
+.content-profile-avt-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.camera-container {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+.ele-spc {
+  margin-bottom: 10px !important;
+  max-height: 20px !important;
+}
+.tex-transform-cap {
+  text-transform: capitalize;
+}
+.btn-box {
+  font-size: 16px;
+}
+.error-input {
+  margin-bottom: 0px !important;
+}
+
+.error-notify {
+  margin-bottom: 8px;
+  color: red;
+  font-weight: 500;
+  font-size: 13px;
+}
+.width-200 {
+  width: 200px;
+}
+.ele-box {
+  width: 100%;
+}
+.error-mess {
+  color: red;
+}
+/* REPONSIVE */
+
+/* Máy tính bảng nhỏ (portrait và landscape) */
+@media (max-width: 1024px) {
+  .content-profile {
+    flex-direction: column;
+  }
+  .content-profile-avt {
+    display: flex;
+    justify-content: center;
+  }
+  .avata-info-cont {
+    margin-left: 20px;
+  }
+  .content-profile-info {
+    width: 80%;
+  }
+  .custom-chart-class {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .btn-function {
+    bottom: 101px;
+    right: 41px;
+  }
+
+  .content-profile {
+    overflow-y: auto !important;
+  }
+}
+
+/* Máy tính bảng lớn và laptop nhỏ */
+@media (min-width: 1025px) and (max-width: 1200px) {
+}
+
+/* Máy tính để bàn và laptop lớn */
+@media (min-width: 1201px) {
+}
+@media (max-width: 500px) {
+  .content-profile-avt {
+    display: inline-block;
+    justify-content: center;
+  }
+  .btn-function {
+    bottom: 37px;
+  }
+  .ele-spc {
+    margin-bottom: 10px !important;
+    max-height: 20px !important;
+    display: flex;
+    justify-content: center;
+    /* min-width: 156px; */
+  }
+  .content-profile {
+    margin-left: 0px;
+    height: 670px;
+  }
+  .custom-chart-class {
+    margin-left: 50px;
+  }
+}
+.ele-box-false input {
+  border: solid 2px red !important;
+  width: 100% !important;
+  box-shadow: none;
+  position: relative;
+}
+.ele-box-false {
+  width: 100%;
+}
+.ele-box-false-spc {
+  display: flex;
+  flex-direction: column;
+}
+.ele-box-false-spc .ant-picker-outlined {
+  border: solid 2px red !important;
+}
+.char-code-count.error {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: red;
+  display: block;
+}
+.char-code-count {
+  display: none;
+}
+.ele-box .char-idcard {
+  display: none;
+}
+.ele-box-false .char-idcard.error {
+  right: 91px !important;
+  top: 123px !important;
+  position: absolute !important;
+}
+.change-pass-box span {
+  margin-top: 5px;
+}
+.ant-btn-primary.ant-btn-dangerous:not(:disabled):not(.ant-btn-disabled):hover {
+  background: #000000;
+}
+.ant-btn-primary.ant-btn-dangerous {
+  background: #0569b1;
+}

@@ -1,0 +1,23 @@
+{
+  "email_wrong": "メールアドレスが間違っています。再度確認してください！",
+  "password_wrong": "パスワードが間違っています。再度確認してください！",
+  "official": "公式",
+  "exam_date": "試験日",
+  "time_remaining": "残り時間",
+  "day": "日",
+  "hour": "時間",
+  "minute": "分",
+  "second": "秒",
+  "sign_in": "サインイン",
+  "email_label": "メール",
+  "email_placeholder": "メールを入力してください！",
+  "password_label": "パスワード",
+  "password_placeholder": "パスワードを入力してください",
+  "forgotpassword": "お忘れですか?",
+  "password": "パスワード",
+  "validemail": "有効なメールアドレスを入力してください！",
+  "login": "ログイン",
+  "too_many_attempts": "入力したエラーが多すぎます。続行するには 30 秒待ってください!",
+  "Remember Me": "私を覚えていますか",
+  "Waiting for": "待っている"
+}

@@ -1,0 +1,14 @@
+{
+    "messageDeletedSuccessfully": "Tin nhắn đã được xóa thành công",
+    "messagePinnedSuccessfully": "Tin nhắn đã được ghim thành công",
+    "announcement": "Thông báo",
+    "admin": "Quản trị viên",
+    "delete": "Xóa",
+    "pin": "Ghim",
+    "typeAMessage": "Nhập tin nhắn..",
+    "send": "Gửi",
+    "noPermissionToSendMessage": "Bạn không có quyền gửi tin nhắn.",
+    "confirmDeleteMessage": "Bạn có chắc chắn muốn xóa tin nhắn này không?",
+    "confirmPinMessage": "Bạn có chắc chắn muốn ghim tin nhắn này không?"
+  }
+  

@@ -1,0 +1,14 @@
+{
+    "messageDeletedSuccessfully": "メッセージが正常に削除されました",
+    "messagePinnedSuccessfully": "メッセージが正常にピン留めされました",
+    "announcement": "お知らせ",
+    "admin": "管理者",
+    "delete": "削除",
+    "pin": "ピン留め",
+    "typeAMessage": "メッセージを入力..",
+    "send": "送信",
+    "noPermissionToSendMessage": "メッセージを送信する権限がありません。",
+    "confirmDeleteMessage": "このメッセージを削除してもよろしいですか？",
+    "confirmPinMessage": "このメッセージをピン留めしてもよろしいですか？"
+  }
+  

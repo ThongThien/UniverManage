@@ -1,0 +1,13 @@
+{
+  "messageDeletedSuccessfully": "Message deleted successfully",
+  "messagePinnedSuccessfully": "Message pinned successfully",
+  "announcement": "Announcement",
+  "admin": "Admin",
+  "delete": "Delete",
+  "pin": "Pin",
+  "typeAMessage": "Type a message..",
+  "send": "Send",
+  "noPermissionToSendMessage": "You do not have permission to send messages.",
+  "confirmDeleteMessage": "Are you sure you want to delete this message?",
+  "confirmPinMessage": "Are you sure you want to pin this message?"
+}
